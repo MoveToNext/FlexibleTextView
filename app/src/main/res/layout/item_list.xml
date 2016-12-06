@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/trend_divider_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/zs_qishu"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/trend_gray"/>
+    <View style="@style/TrendItemVerticalDivider" />
+
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C1"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="circular"/>
+    <View style="@style/TrendItemVerticalDivider" />
+
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C2"
+        app:shape="circular"
+        app:bgColor="@color/colorPrimaryDark"
+        style="@style/BaseItemTextViewStyle"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C3"
+        app:shape="circular"
+        app:tColor="@android:color/black"
+        app:bgColor="@color/colorAccent"
+        style="@style/BaseItemTextViewStyle"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C4"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="circular"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C5"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="circular"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C6"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="square"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C7"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="square"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C8"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="square"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C9"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="square"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C10"
+        style="@style/BaseItemTextViewStyle"
+        app:shape="square"/>
+    <View style="@style/TrendItemVerticalDivider" />
+    <com.flexible.view.FlexibleTextView
+        android:id="@+id/C11"
+        style="@style/BaseItemTextViewStyle"
+        app:tColor="@color/colorPrimary"
+        app:shape="square"/>
+</LinearLayout>

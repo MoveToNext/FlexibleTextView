@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexibleTextView">
+        <attr name="tColor" format="color"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="shape">
+            <enum name="circular" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
