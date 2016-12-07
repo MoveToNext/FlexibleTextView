@@ -8,9 +8,9 @@
 - `app:tColor"` 要显示的字体的颜色
 - `app:bgColor"` 要显示的字体背景的颜色
 - ` app:shape `
-
     - `app:shape="square"`  填充等宽高的方形背景
     - `app:shape="circular"`  取高度和宽度之间最小的值，填充圆形背景，圆的半径为最小的值的一半
+    
 ----
 方法介绍：
 
