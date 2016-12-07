@@ -9,7 +9,6 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 /**
- * PackageName:  liu.myapplication
  * Description: 自定义灵活textview，自定义属性 shape {"circular","square"}
  * date:   2016/11/24 15:42
  */
@@ -49,7 +48,7 @@ public class FlexibleTextView extends TextView {
         typedArray.recycle();
 
         if (shape < 0){
-            throw new RuntimeException("Shape is not defined, please first definition, thank you");
+            throw new RuntimeException("Shape is not defined, please first definition");
         }
 
         switch (shape){
